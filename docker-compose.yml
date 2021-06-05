@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  first_microservice_csharp:
+    image: ${DOCKER_REGISTRY-}firstmicroservicecsharp
+    build:
+      context: .
+      dockerfile: First_microservice_Csharp/Dockerfile
+      
+ 
